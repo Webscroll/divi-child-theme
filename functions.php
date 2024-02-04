@@ -1,7 +1,7 @@
 <?php
 require_once get_stylesheet_directory() . '/vendor/autoload.php';
 
-use Webscroll\DiviChild\Loaders\fonts\FontLoader;
+use Webscroll\DiviChild\Loaders\Fonts\FontLoader;
 use Webscroll\DiviChild\Loaders\Theme\ThemeLoader;
 
 /**

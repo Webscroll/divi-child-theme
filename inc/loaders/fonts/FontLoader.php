@@ -1,6 +1,6 @@
 <?php
 
-namespace Webscroll\DiviChild\Loaders\fonts;
+namespace Webscroll\DiviChild\Loaders\Fonts;
 
 use Exception;
 use Webscroll\DiviChild\Loaders\config\ConfigLoader;
