@@ -1,0 +1,16 @@
+{
+  "name": "webscroll/wp-divi-child-theme",
+  "description": "Our starter divi child theme",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Webscroll\\DiviChild\\": "inc/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Webscroll Inc."
+    }
+  ],
+  "require": {}
+}
