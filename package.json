@@ -4,8 +4,8 @@
   "description": "Webscroll divi child theme",
   "author": "Webscroll Inc.",
   "scripts": {
-    "css:watch": "sass --no-source-map --watch --style=compressed ./lib/styles/index.scss:./style.css",
-    "css:build": "sass --no-source-map --style=expanded ./lib/styles/index.scss:./style.css",
+    "css:watch": "sass --no-source-map --watch --style=compressed ./src/styles/index.scss:./style.css",
+    "css:build": "sass --no-source-map --style=expanded ./src/styles/index.scss:./style.css",
     "wpb:build": "webpack --config webpack.config.js",
     "wpb:watch": "webpack --config webpack.config.js --watch"
   },
