@@ -1,6 +1,6 @@
 <?php
 
-namespace Webscroll\DiviChild\Loaders\config;
+namespace Webscroll\DiviChild\Loaders\Config;
 
 use DirectoryIterator;
 

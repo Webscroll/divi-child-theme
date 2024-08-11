@@ -3,7 +3,7 @@
 namespace Webscroll\DiviChild\Loaders\Fonts;
 
 use Exception;
-use Webscroll\DiviChild\Loaders\config\ConfigLoader;
+use Webscroll\DiviChild\Loaders\Config\ConfigLoader;
 
 class FontLoader
 {
