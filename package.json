@@ -7,7 +7,8 @@
     "css:watch": "sass --no-source-map --watch --style=compressed ./src/styles/index.scss:./style.css",
     "css:build": "sass --no-source-map --style=expanded ./src/styles/index.scss:./style.css",
     "wpb:build": "webpack --config webpack.config.js",
-    "wpb:watch": "webpack --config webpack.config.js --watch"
+    "wpb:watch": "webpack --config webpack.config.js --watch",
+    "build:all": "npm run css:build && npm run wpb:build"
   },
   "dependencies": {
     "prettier": "^3.1.1"
