@@ -8,7 +8,7 @@ use Webscroll\DiviChild\Loaders\Theme\ThemeLoader;
  * @uses ThemeLoader::load()
  * Loading the custom divi theme.
  */
-add_action('wp_enqueue_scripts'. [ThemeLoader::class, 'load']);
+add_action('wp_enqueue_scripts', [ThemeLoader::class, 'load']);
 
 /**
  * @uses FontLoader::enqueue()
